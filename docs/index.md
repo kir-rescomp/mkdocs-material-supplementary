@@ -9,13 +9,3 @@
   Button Text
 </a>
 
-<div class="grid cards" markdown>
--   :material-linux:{ .lg .middle } __Introduction to Linux__
-
-    ---
-
-    Learn to deploy applications on AWS cloud infrastructure
-
-    [:octicons-arrow-right-24: Start Workshop](./aws-workshop.md){ .md-button }
-
-</div>
