@@ -55,7 +55,7 @@
     
     [Start :octicons-arrow-right-24:](./azure/){ .md-button }
 
--   ![GCP](images/gcp.png){ width="80" }
+-   ![GCP](images/google-cloud.png){ width="80" }
     
     __GCP Workshop__
     
