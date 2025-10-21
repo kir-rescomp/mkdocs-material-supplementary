@@ -82,3 +82,55 @@ By default, cards are responsive. You can also use grid with inline styles for f
 ```markdown
 <div class="grid" style="grid-template-columns: repeat(2, 1fr);" markdown>
 ```
+## Change background colours of a card
+
+### Inline styke
+
+
+<div class="grid cards" markdown>
+
+-   <div style="background-color: #e3f2fd; padding: 1em; border-radius: 0.2em;" markdown>
+    
+    ![AWS](images/aws.png){ width="80" }
+    
+    __AWS Workshop__
+    
+    ---
+    
+    Cloud infrastructure and deployment
+    
+    [Start :octicons-arrow-right-24:](./aws/){ .md-button }
+    
+    </div>
+
+</div>
+
+### Custom CSS classes ( cleaner option- Refer to docs/stylesheets/extra.css)
+
+<div class="grid cards" markdown>
+
+-   <div class="card-blue" markdown>
+    
+    ![AWS](images/aws.png){ width="80" }
+    
+    __AWS Workshop__
+    
+    ---
+    
+    [Start Workshop](./aws/){ .md-button }
+    
+    </div>
+
+-   <div class="card-orange" markdown>
+    
+    ![Azure](images/azure.png){ width="80" }
+    
+    __Azure Workshop__
+    
+    ---
+    
+    [Start Workshop](./azure/){ .md-button }
+    
+    </div>
+
+</div>
