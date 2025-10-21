@@ -19,7 +19,7 @@
 
 <div class="grid cards" markdown>
 
--   ![AWS Logo](images/aws-logo.png){ width="100" }
+-   ![AWS Logo](images/aws.png){ width="100" }
 
     __AWS Workshop__
 
@@ -55,7 +55,7 @@
     
     [Start :octicons-arrow-right-24:](./azure/){ .md-button }
 
--   ![GCP](images/gcp.png){ width="80" }
+-   ![GCP](images/google-cloud.png){ width="80" }
     
     __GCP Workshop__
     
