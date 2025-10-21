@@ -1,2 +1,2 @@
-# mkdocs-material-supplementary
-Supplementary and Themes for mkdocs-material 
+# `mkdocs-material` Supplementary 
+Supplementary and Themes for `mkdocs-material` 
