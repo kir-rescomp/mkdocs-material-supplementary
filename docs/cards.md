@@ -19,7 +19,7 @@
 
 <div class="grid cards" markdown>
 
--   ![AWS Logo](images/aws-logo.png){ width="100" }
+-   ![AWS Logo](images/aws.png){ width="100" }
 
     __AWS Workshop__
 
