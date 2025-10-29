@@ -1,4 +1,3 @@
-# Cards
 
 ## Basic card with image button 
 
