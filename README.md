@@ -1,2 +1,2 @@
 # `mkdocs-material` Supplementary 
-Supplementary and Themes for `mkdocs-material` 
+This is the Research and Development space for KIR Research Computing `mkdocs-material` themes, admonitions, attributes,etc
