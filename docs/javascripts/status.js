@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   if (!statusContainer) return; // Only run if the status div exists
   
-  fetch('/status/current.json')
+  fetch('../status/current.json')
     .then(response => response.json())
     .then(data => {
       // Render services status
