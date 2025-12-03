@@ -2,13 +2,13 @@
   "last_updated": "2025-12-02T10:00:00Z",
   "services": [
     {"name": "Login Nodes", "status": "operational"},
-    {"name": "Compute Partition A", "status": "operational"},
-    {"name": "Compute Partition B", "status": "maintenance"},
+    {"name": "Compute Nodes", "status": "operational"},
+    {"name": "GPU nodes", "status": "maintenance"},
     {"name": "GPFS Storage", "status": "degraded"}
   ],
   "upcoming_maintenance": [
     {
-      "date": "2024-12-15",
+      "date": "2025-01-15",
       "service": "All Systems",
       "description": "Scheduled maintenance window"
     }
