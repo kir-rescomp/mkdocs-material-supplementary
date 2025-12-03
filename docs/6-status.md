@@ -1,6 +1,6 @@
-# Cluster Status
+# 6-Cluster Status
 
-# Cluster Status
+
 
 1. The JavaScript runs automatically when any page loads (via `DOMContentLoaded`)
 2. It looks for an element with `id="cluster-status"`
