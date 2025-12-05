@@ -1,0 +1,105 @@
+/* Clean, contemporary design with subtle animations */
+.md-sidebar--primary {
+    background: #fafafa;
+    border-right: 1px solid #e5e7eb;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar--primary {
+    background: #1a1b26;
+    border-right: 1px solid #2f3241;
+}
+
+.md-nav__item {
+    margin: 2px 12px;
+    position: relative;
+}
+
+.md-nav__link {
+    border-radius: 6px;
+    padding: 5px 5px;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Add subtle dot indicator */
+.md-nav__link::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+.md-nav__link:hover::before {
+    background: #6366f1;
+    box-shadow: 0 0 8px rgba(99, 102, 241, 0.6);
+}
+
+.md-nav__link:hover {
+    background: rgba(99, 102, 241, 0.08);
+    padding-left: 18px;
+}
+
+.md-nav__link--active {
+    background: rgba(99, 102, 241, 0.12);
+    color: #2a2ca8 !important;
+    font-weight: 600;
+    padding-left: 18px;
+}
+
+.md-nav__link--active::before {
+    background: #8190d4;
+    box-shadow: 0 0 12px rgba(109, 156, 231, 0.8);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+/* Add to docs/stylesheets/extra.css
+.md-sidebar--primary {
+    background: linear-gradient(180deg, #051338 0%, #c7d1e4 100%);
+}
+*/
+/* Or a solid color */
+/*
+.md-sidebar--primary {
+    background-color: #517394;
+}
+*./
+
+.md-sidebar--primary {
+    background-color: #090b0c;
+    border-right: 2px solid #7f8d9f;
+    box-shadow: 2px 0 8px rgba(0,0,0,0.05);
+}
+/* Enhance the nav items themselves */
+
+/*
+.md-nav__item {
+    border-left: 3px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.md-nav__item:hover {
+    border-left-color: #4051b5;
+    background-color: rgba(64, 81, 181, 0.05);
+}
+
+.md-nav__item--active {
+    background-color: rgba(64, 81, 181, 0.1);
+    border-left-color: #4051b5;
+}
+
+.md-sidebar--primary::before {
+    content: "";
+    display: block;
+    height: 4px;
+    background: linear-gradient(90deg, #4051b5, #7b83eb);
+}
+*/
