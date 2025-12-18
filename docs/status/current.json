@@ -1,10 +1,12 @@
 {
   "last_updated": "2025-12-02T10:00:00Z",
   "services": [
-    {"name": "Login Nodes", "status": "operational"},
-    {"name": "Compute Nodes", "status": "operational"},
-    {"name": "GPU nodes", "status": "maintenance"},
-    {"name": "GPFS Storage", "status": "degraded"}
+    {"name": "Login Nodes", "status": "major-outage"},
+    {"name": "Compute Nodes", "status": "major-outage"},
+    {"name": "GPU nodes", "status": "major-outage"},
+    {"name": "GPFS Storage", "status": "major-outage"},
+    {"name": "OpenOnDemand", "status": "major-outage"}
+
   ],
   "upcoming_maintenance": [
     {

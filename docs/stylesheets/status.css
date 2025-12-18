@@ -23,9 +23,10 @@
   background: rgba(255, 152, 0, 0.1);
 }
 
-.status-item.offline {
+.status-item.major-outage {
   border-left-color: #f44336;
-  background: rgba(244, 67, 54, 0.1);
+  background: rgba(245, 62, 49, 0.849);
+  color: white;
 }
 
 .status-item.maintenance {
