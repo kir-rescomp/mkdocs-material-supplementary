@@ -34,6 +34,12 @@
   background: rgba(33, 150, 243, 0.1);
 }
 
+.status-item.partial-outage {
+  border-left-color: #f4a836;
+  background: rgba(243, 200, 6, 0.849);
+  color: rgb(20, 16, 16);
+}
+
 .status-name {
   flex: 1;
   font-weight: 500;
@@ -52,7 +58,7 @@
   color: white;
 }
 
-.status-badge.degraded {
+.status-badge.degraded-performance {
   background: #ff9800;
   color: white;
 }
