@@ -63,8 +63,13 @@
   color: white;
 }
 
-.status-badge.offline {
-  background: #f44336;
+.status-badge.major-outage {
+  background: #f47236;
+  color: white;
+}
+
+.status-badge.partial-outage {
+  background: #ff9800;
   color: white;
 }
 
