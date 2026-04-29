@@ -129,3 +129,4 @@ extra_css:
   - stylesheets/status.css
   - stylesheets/side-bar.css
   - stylesheets/indexpage_featured_scroll_behaviour.css
+  - stylesheets/landingpage_headers.css
