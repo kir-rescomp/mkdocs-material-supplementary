@@ -21,3 +21,18 @@
 </a>
 
 
+<div class="section-title" markdown>
+## :material-server-network: HPC Support Documentation
+</div>
+
+<div class="section-heading">
+  <span class="section-badge">:material-server-network:</span>
+  <span class="section-heading-text">HPC Support Documentation</span>
+</div>
+
+<p class="section-title-gradient">HPC Support Documentation</p>
+
+<div class="section-overline">
+  <span class="overline-label">Section 01</span>
+  <h2>HPC Support Documentation</h2>
+</div>
